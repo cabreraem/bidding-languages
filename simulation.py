@@ -174,7 +174,7 @@ def main(args):
                       help="Set the logging level: 'debug' or 'info'")
 
     parser.add_option("--num-items",
-                      dest="num_items", default=5, type="int",
+                      dest="num_items", default=10, type="int",
                       help="Set number of items")
 
     parser.add_option("--num-bids",

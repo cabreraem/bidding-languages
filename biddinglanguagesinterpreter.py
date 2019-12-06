@@ -105,7 +105,6 @@ def make_simple_bid():
         while True:
             response = prompt(val_question, style=style)
             value = response['value']
-            print(value)
             try:
                 value = float(value)
                 break
